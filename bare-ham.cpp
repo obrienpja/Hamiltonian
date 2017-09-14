@@ -27,15 +27,22 @@ double BareHamiltonian :: getX()
 }
 
 /**
- * Create the sigma x matrix
+ * Loads the sigma x matrix into ham
  */
-Eigen::MatrixXd BareHamiltonian :: createSigmaX()
+void BareHamiltonian :: createSigmaX()
 {
-	Eigen::MatrixXd A(2,2);
-	A(0,0) = 0;
-	A(0,1) = 1;
-	A(1,0) = 1;
-	A(1,1) = 0;
-	return A;
+	ham(0,0) = 0;
+	ham(0,1) = 1;
+	ham(1,0) = 1;
+	ham(1,1) = 0;
 }
 
+/**
+ * Prints the eigenvalues of ham
+ */   
+void BareHamiltonian::printEigenvalues()
+{
+	Eigen::EigenSolver<Eigen::MatrixXd> es;
+	es.compute(ham);
+	std::cout << "The eigenvalues are: " << std::endl << es.eigenvalues() << std::endl;
+}
