@@ -10,11 +10,13 @@ class BareHamiltonian
 {
 	private:
 		double x;
-		Eigen::MatrixXd ham = Eigen::MatrixXd(2,2);
+		Eigen::MatrixXd ham;
 	public:
 		void setX(double xVal);	
 		double getX();
 		void createSigmaX();
 		BareHamiltonian(double xVal);
 		void printEigenvalues();
+		void addHoppingContribution(int dim);
+		void printHamiltonian();
 };

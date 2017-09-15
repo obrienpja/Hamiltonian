@@ -4,7 +4,8 @@
 int main()
 {
 	BareHamiltonian bare(1.2);
-	bare.createSigmaX();
+	bare.addHoppingContribution(25);
+	bare.printHamiltonian();
 	bare.printEigenvalues();
 	
 	return 0;
