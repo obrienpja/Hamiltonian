@@ -1,7 +1,7 @@
 var NAVTREE =
 [
-  [ "Hamiltonian", "index.html", [
-    [ "Welcome to GitHub Pages", "md__r_e_a_d_m_e.html", null ],
+  [ "My Project", "index.html", [
+    [ "Welcome to GitHub Pages", "md_README.html", null ],
     [ "Classes", "annotated.html", [
       [ "Class List", "annotated.html", "annotated_dup" ],
       [ "Class Index", "classes.html", null ],

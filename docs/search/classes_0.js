@@ -1,4 +1,4 @@
 var searchData=
 [
-  ['barehamiltonian',['BareHamiltonian',['../class_bare_hamiltonian.html',1,'']]]
+  ['barehamiltonian',['BareHamiltonian',['../classBareHamiltonian.html',1,'']]]
 ];
