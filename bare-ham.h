@@ -1,4 +1,5 @@
 #include <iostream>
+#include <typeinfo>
 #include <eigen-eigen-5a0156e40feb/Eigen/Eigenvalues>
 
 /**
@@ -9,13 +10,9 @@
 class BareHamiltonian
 {
 	private:
-		double x;
 		Eigen::MatrixXd ham;
 	public:
-		void setX(double xVal);	
-		double getX();
 		void createSigmaX();
-		BareHamiltonian(double xVal);
 		void printEigenvalues();
 		void addHoppingContribution(int dim);
 		void printHamiltonian();

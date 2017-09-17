@@ -1,4 +1,5 @@
 var searchData=
 [
-  ['getx',['getX',['../classBareHamiltonian.html#a9210dee3c208d26367f4d088a7025e49',1,'BareHamiltonian']]]
+  ['printeigenvalues',['printEigenvalues',['../classBareHamiltonian.html#a9b76dd7baf57c19ef0e3d7989d73a6a4',1,'BareHamiltonian']]],
+  ['printhamiltonian',['printHamiltonian',['../classBareHamiltonian.html#a438895fb1eae7db7e3a603b00fae55fa',1,'BareHamiltonian']]]
 ];

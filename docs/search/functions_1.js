@@ -1,4 +1,4 @@
 var searchData=
 [
-  ['barehamiltonian',['BareHamiltonian',['../classBareHamiltonian.html#a752fbcebc9209dbe93e197c2be8e68c5',1,'BareHamiltonian']]]
+  ['createsigmax',['createSigmaX',['../classBareHamiltonian.html#aef47feb3f9b4b829be90823dc60b2fea',1,'BareHamiltonian']]]
 ];

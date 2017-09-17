@@ -3,10 +3,10 @@
 
 int main()
 {
-	BareHamiltonian bare(1.2);
+	BareHamiltonian bare;
 	bare.addHoppingContribution(25);
 	bare.printHamiltonian();
 	bare.printEigenvalues();
-	
+
 	return 0;
 }
